@@ -9,22 +9,22 @@
  }
 
  .wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 5%;
+   display: flex;
+   flex-direction: column;
+   gap: 5%;
    align-items: center;
    width: 100%;
-   min-height: 100vh; 
-    /* height: 100vh;  */
+   min-height: 100vh;
    margin: 0;
    padding: 1px;
    background-color: #011F3F;
 
  }
- @media (max-width:1400px){
-  .wrapper{
-    justify-content: center;
-  }
+
+ @media (max-width:1400px) {
+   .wrapper {
+     justify-content: center;
+   }
  }
 
  .corner {
@@ -96,14 +96,14 @@
    margin: 0 auto;
    line-height: 2;
    color: #FEF2BF;
-  padding: 0 30px;
+   padding: 0 30px;
  }
 
  @media (max-width:1023px) {
-  
+
    .wrapper-start #level-title::after {
      content: 'Simon game';
-     
+
      font-size: calc(24px + (48 - 24) * ((100vw - 300px) / (1400 - 300)));
    }
 
@@ -122,15 +122,14 @@
  }
 
  @media (max-width:870px) {
-  .wrapper-start #level-title::after{
-   margin: 0 auto;
-  }
-  .wrapper-start .start {
-    /* margin: 100px; */
-    /* padding: 4vw; */
-    width: clamp(200px, 60vw, 400px);
-    padding: 4vmin 0;
-  }
+   .wrapper-start #level-title::after {
+     margin: 0 auto;
+   }
+
+   .wrapper-start .start {
+     width: clamp(200px, 60vw, 400px);
+     padding: 4vmin 0;
+   }
  }
 
 
@@ -218,11 +217,13 @@
    border-style: hidden;
    box-shadow: 0 0 0 7px black;
  }
-@media (max-width: 570px){
-  table{
-    box-shadow: 0 0 0 4px black;
-  }
-}
+
+ @media (max-width: 570px) {
+   table {
+     box-shadow: 0 0 0 4px black;
+   }
+ }
+
  caption {
    font-size: 48px;
    margin: 5%;
@@ -275,7 +276,7 @@
    border-radius: 20px;
    margin: 25px;
    display: inline-block;
-    width: clamp(200px, 60vw, 400px); 
+   width: clamp(200px, 60vw, 400px);
    font-family: 'Press Start 2P', cursive;
    font-size: 24px;
    display: inline-block;
@@ -291,13 +292,16 @@
      padding: 30px;
    }
  }
- @media(max-width: 800px){
-  .new-game,
+
+ @media(max-width: 800px) {
+
+   .new-game,
    .close {
-    padding: 4vw;
-    border: 1vw solid black;
+     padding: 4vw;
+     border: 1vw solid black;
    }
  }
+
  @media(max-width:500px) {
 
    .new-game,
@@ -307,6 +311,7 @@
      width: 80vw;
    }
  }
+
  .info {
    box-sizing: border-box;
    position: absolute;
@@ -330,16 +335,18 @@
    line-height: 2;
    text-wrap: balance;
  }
-  @media (max-width:1440px){
-    .info-wrapper{
-      font-size: calc(14px + (21 - 14) * ((100vw - 300px) / (1400 - 300)));
-    }
-  }
- @media(max-width:800px){
-  .info-wrapper{
-    border-width: 1vw;
-    
-  }
+
+ @media (max-width:1440px) {
+   .info-wrapper {
+     font-size: calc(14px + (21 - 14) * ((100vw - 300px) / (1400 - 300)));
+   }
+ }
+
+ @media(max-width:800px) {
+   .info-wrapper {
+     border-width: 1vw;
+
+   }
  }
 
  .info h2 {
@@ -348,10 +355,11 @@
    margin: 5%;
    color: #FEF2BF;
  }
- @media (max-width:1440px){
-  .info h2{
-    font-size: calc(24px + (48 - 24) * ((100vw - 300px) / (1400 - 300)));
-  }
+
+ @media (max-width:1440px) {
+   .info h2 {
+     font-size: calc(24px + (48 - 24) * ((100vw - 300px) / (1400 - 300)));
+   }
  }
 
  .color {
