@@ -21,7 +21,7 @@
 
  }
 
- @media (max-width:1440px) {
+ @media (max-width:1439px) {
    .wrapper {
      justify-content: center;
    }
@@ -98,7 +98,11 @@
    color: #FEF2BF;
    padding: 0 30px;
  }
-
+@media (min-width: 1440px){
+  #level-title{
+    margin: 5% auto 3%;
+  }
+}
  @media (max-width:1023px) {
 
    .wrapper-start #level-title::after {
