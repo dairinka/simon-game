@@ -125,7 +125,9 @@ function makeTask() {
 
 function makeSound(cmd) {
   const sound = new Audio(sounds[cmd]);
+  sound.volume = 0.1;
   sound.play();
+  
 }
 
 function btnAnimation(el) {

@@ -13,7 +13,7 @@
    flex-direction: column;
    gap: 5%;
    align-items: center;
-   width: 100%;
+   width: 100vw;
    min-height: 100vh;
    margin: 0;
    padding: 1px;
@@ -121,7 +121,7 @@
    }
  }
 
- @media (max-width:870px) {
+ @media (max-device-width:870px) {
    .wrapper-start #level-title::after {
      margin: 0 auto;
    }
@@ -343,7 +343,7 @@
    text-wrap: balance;
  }
 
- @media (max-width:1440px) {
+ @media (max-device-width:1440px) {
    .info-wrapper {
      font-size: calc(14px + (21 - 14) * ((100vw - 300px) / (1400 - 300)));
    }
@@ -376,4 +376,9 @@
  .close {
    margin: 5% auto;
    display: block;
+ }
+
+ button:hover{
+  box-shadow: 0 0 20px white;
+  background-color: grey;
  }
