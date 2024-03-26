@@ -21,7 +21,7 @@
 
  }
 
- @media (max-width:1400px) {
+ @media (max-width:1440px) {
    .wrapper {
      justify-content: center;
    }
@@ -156,18 +156,25 @@
    border-radius: 20%;
  }
 
- @media (max-width:1050px) {
+ @media (max-width:1440px) {
+   .btn {
+     height: 30vmin;
+     width: 30vmin;
+     max-width: 200px;
+     max-height: 200px;
+     margin: 20px;
+   }
+ }
+
+ @media (max-width:1024px) {
    .container {
      width: 80%;
    }
 
    .btn {
-     height: 30vw;
-     width: 30vw;
-     max-width: 200px;
-     max-height: 200px;
+
      border-width: 1vw;
-     margin: 20px;
+
    }
  }
 
