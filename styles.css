@@ -8,6 +8,10 @@
    padding: 0;
  }
 
+ button {
+   cursor: pointer;
+ }
+
  .wrapper {
    display: flex;
    flex-direction: column;
@@ -98,11 +102,13 @@
    color: #FEF2BF;
    padding: 0 30px;
  }
-@media (min-width: 1440px){
-  #level-title{
-    margin: 5% auto 3%;
-  }
-}
+
+ @media (min-width: 1440px) {
+   #level-title {
+     margin: 5% auto 3%;
+   }
+ }
+
  @media (max-width:1023px) {
 
    .wrapper-start #level-title::after {
@@ -382,7 +388,7 @@
    display: block;
  }
 
- button:hover{
-  box-shadow: 0 0 20px white;
-  background-color: grey;
+ button:hover {
+   box-shadow: 0 0 20px white;
+   background-color: grey;
  }
